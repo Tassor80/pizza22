@@ -1,0 +1,312 @@
+html {
+  box-sizing: border-box; }
+
+body {
+  background: url("../img/t1_free_bg.jpg?s=988888") center 0; }
+
+@media (min-width: 41.3125rem) {
+  .centrar {
+    width: 40.625rem;
+    margin: 0 auto; } }
+
+.headboard .headboard-list {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  text-align: center; }
+  @media (min-width: 41.3125rem) {
+    .headboard .headboard-list {
+      text-align: right; } }
+.headboard .headboard-item:first-child {
+  margin-bottom: 2.25rem; }
+@media (min-width: 41.3125rem) {
+  .headboard .headboard-item {
+    display: inline-block;
+    margin-left: 1.25rem; } }
+.headboard .headboard-link {
+  color: #737373;
+  font-family: Arial, sans-serif;
+  font-size: 0.75rem;
+  text-decoration: none; }
+.headboard .vineta {
+  color: #000001;
+  background: #fd6464;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 2em;
+  margin-right: 0.5em; }
+
+.containerpromo {
+  background-color: #fd6464; }
+  .containerpromo .containerpromo-imag {
+    padding-bottom: 2.5rem; }
+  .containerpromo .containerpromo-imag-uno {
+    max-width: 100%; }
+  .containerpromo .containerpromo-day {
+    color: #ffffff;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.875rem;
+    font-weight: bold;
+    text-align: center; }
+  .containerpromo .containerpromo-text {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.875rem;
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center; }
+
+.order {
+  background-color: #fff;
+  padding-top: 2.5rem; }
+  .order .order-principal {
+    color: #ffffff;
+    background-color: #72b314;
+    font-family: 'Playfair Display', Georgia, sans-serif;
+    font-size: 1.375rem;
+    padding: 0.5em 0px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center; }
+    @media (min-width: 41.3125rem) {
+      .order .order-principal {
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        width: 48%;
+        margin: 0 auto; } }
+  @media (min-width: 41.3125rem) {
+    .order .order-list {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 0 auto; } }
+  .order .order-imagen {
+    text-align: center; }
+    .order .order-imagen:first-child {
+      padding-top: 1rem; }
+  .order .order-imagen2 {
+    width: 90%; }
+    .order .order-imagen2:hover {
+      filter: saturate(180%); }
+  .order .order-title {
+    color: #000;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1rem; }
+  .order .order-price {
+    color: #72b314;
+    font-family: Arial, sans-serif;
+    font-size: 1.375rem;
+    text-align: center;
+    padding-bottom: 0.75rem; }
+  .order .order-text {
+    color: #999;
+    font-family: Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.625rem;
+    text-align: center;
+    padding-bottom: 1.25rem; }
+    @media (min-width: 41.3125rem) {
+      .order .order-text {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 1.25rem; } }
+  .order .order-botton {
+    text-align: center;
+    padding-bottom: 1.875rem; }
+    .order .order-botton:hover {
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3); }
+  .order .order-boton2 {
+    color: #fff;
+    background: #72b314;
+    font-family: Georgia, serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    text-decoration: none;
+    width: 30%;
+    margin: 0 auto; }
+
+.ordertwo {
+  background-color: #f4f4f4; }
+  .ordertwo .ordertwo-principal {
+    color: black;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.375rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem; }
+  @media (min-width: 41.3125rem) {
+    .ordertwo .ordertwo-list {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 0 auto; } }
+  .ordertwo .ordertwo-imag {
+    text-align: center; }
+  .ordertwo .ordertwo-imag2 {
+    width: 90%; }
+    .ordertwo .ordertwo-imag2:hover {
+      filter: saturate(180%); }
+  .ordertwo .ordertwo-title {
+    color: #000;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .ordertwo .ordertwo-text {
+    color: #999;
+    font-family: Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.625rem;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto; }
+  .ordertwo .ordertwo-botton {
+    text-align: center;
+    margin-top: 1.625rem;
+    padding-bottom: 2.25rem; }
+    .ordertwo .ordertwo-botton:hover {
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3); }
+  .ordertwo .ordertwo-botton2 {
+    color: #fff;
+    background: #fd6464;
+    font-family: Georgia, serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    text-decoration: none;
+    margin-bottom: 1.875rem; }
+
+.place {
+  background-color: #fff; }
+  .place .place-title {
+    color: #000;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem; }
+  .place .place-text {
+    color: #999;
+    font-family: Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.625rem;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 1.625rem; }
+  .place .place-container {
+    background-color: #fd6464; }
+  .place .place-title2 {
+    color: #fff;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.875rem;
+    line-height: 2.875rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.875rem;
+    padding-bottom: 1rem; }
+  .place .place-text2 {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+    text-align: center;
+    padding-bottom: 1.875rem; }
+  .place .place-title3 {
+    color: #000000;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.875rem;
+    line-height: 2.875rem;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    width: 90%;
+    margin: 0 auto; }
+  .place .place-text3 {
+    color: #999999;
+    font-family: Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+    padding-bottom: 1.625rem;
+    width: 90%;
+    margin: 0 auto; }
+  .place .place-img {
+    text-align: center; }
+    .place .place-img:hover {
+      filter: saturate(180%); }
+  .place .place-img2 {
+    width: 90%; }
+  .place .place-list {
+    padding-top: 1.25rem;
+    padding-bottom: 1.875rem;
+    width: 90%;
+    margin: 0 auto; }
+    @media (min-width: 41.3125rem) {
+      .place .place-list {
+        display: flex; } }
+  .place .place-item {
+    padding-top: 1.25rem; }
+    @media (min-width: 41.3125rem) {
+      .place .place-item {
+        margin-right: 1.25rem; } }
+  @media (min-width: 41.3125rem) {
+    .place .place-img4 {
+      margin-right: 1rem; } }
+  .place .place-link {
+    color: #999999;
+    font-family: Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+    text-decoration: none; }
+  .place .number {
+    font-family: Arial, sans-serif;
+    font-size: 1.25rem; }
+
+footer {
+  background-color: #f4f4f4; }
+  footer .footer-list {
+    padding-top: 4.375rem;
+    padding-bottom: 1.25rem;
+    text-align: center; }
+  footer .footer-item {
+    display: inline-block; }
+  footer .footer-img:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    filter: saturate(180%); }
+  footer .footer-final {
+    color: #999;
+    font-family: Arial, sans-serif;
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 2.25rem; }
+    footer .footer-final:last-child {
+      padding-bottom: 4.375rem; }
+
+/*# sourceMappingURL=pizza.css.map */
